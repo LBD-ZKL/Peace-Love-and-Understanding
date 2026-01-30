@@ -19,7 +19,7 @@ struct ContentView: View {
                 .bold()
                 .padding()
             Spacer()
-            
+             
             Image(systemName: imageName)
                 .resizable()
                 .scaledToFit()
@@ -55,7 +55,7 @@ struct ContentView: View {
         .padding()
     }
 }
-
+ 
 #Preview {
     ContentView()
 }
